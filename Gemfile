@@ -65,7 +65,7 @@ gem 'link_header', '~> 0.0'
 gem 'mime-types', '~> 3.3.1', require: 'mime/types/columnar'
 gem 'nilsimsa', git: 'https://github.com/witgo/nilsimsa', ref: 'fd184883048b922b176939f851338d0a4971a532'
 gem 'nokogiri', '~> 1.10'
-gem 'nsa', '~> 0.2'
+gem 'nsa', '~> 0.2', '>= 0.2.8'
 gem 'oj', '~> 3.10'
 gem 'ox', '~> 2.13'
 gem 'parslet'
@@ -96,7 +96,7 @@ gem 'twitter-text', '~> 1.14'
 gem 'tzinfo-data', '~> 1.2020'
 gem 'webpacker', '~> 5.2'
 gem 'webpush'
-gem 'webauthn', '~> 3.0.0.alpha1'
+gem 'webauthn', '~> 3.0.0.0'
 
 gem 'json-ld'
 gem 'json-ld-preloaded', '~> 3.1'
@@ -159,4 +159,4 @@ gem 'concurrent-ruby', require: false
 gem 'connection_pool', require: false
 
 gem 'xorcist', '~> 1.1'
-gem 'pluck_each', '~> 0.1.3'
+gem 'pluck_each', '~> 0.2.0'
